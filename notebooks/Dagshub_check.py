@@ -6,6 +6,7 @@ mlflow.set_experiment('Connection Check')
 with mlflow.start_run():
   mlflow.log_param('model', 'logistic regression')
   mlflow.log_metric('Accueacy', 1)
+  mlflow.log_metric('Recall', 1)
   
   
   # Connection = Passed
